@@ -1,0 +1,10 @@
++ node1 +
+Public address of the key:   0xE744b654225f2b0311546bE751b5eaa4d201AafC
+Password: 123456789
+
++ node2 +
+Public address of the key:   0xc44e7F61723E1927c281618302acE0E13e12b06e
+Password: 123456789
+
++ bootnode +
+enode://659ec0b3130cddc70da0f3c098cd244c6fa819738b013001d253191a8370e3a00652d5a0c58b58c0dd2a8766bc2699a1b113844dbda5343b9881ccd5cae12cc8@127.0.0.1:0?discport=30301

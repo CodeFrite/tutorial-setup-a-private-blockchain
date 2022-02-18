@@ -1,0 +1,72 @@
+=============== Feb 18, 2022 (CET) ===============
+12:37:08.034325 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:37:08.140524 db@open opening
+12:37:08.153153 version@stat F·[] S·0B[] Sc·[]
+12:37:08.198405 db@janitor F·2 G·0
+12:37:08.198919 db@open done T·58.3952ms
+=============== Feb 18, 2022 (CET) ===============
+12:38:18.578244 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:38:18.578244 version@stat F·[] S·0B[] Sc·[]
+12:38:18.578244 db@open opening
+12:38:18.578244 journal@recovery F·1
+12:38:18.581312 journal@recovery recovering @1
+12:38:18.611405 memdb@flush created L0@2 N·114 S·4KiB "loc..seq,v23":"version,v1"
+12:38:18.614232 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+12:38:18.771411 db@janitor F·3 G·0
+12:38:18.771411 db@open done T·193.1672ms
+=============== Feb 18, 2022 (CET) ===============
+12:40:34.595230 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:40:34.595754 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+12:40:34.595754 db@open opening
+12:40:34.595754 journal@recovery F·1
+12:40:34.596791 journal@recovery recovering @3
+12:40:34.620643 memdb@flush created L0@5 N·1 S·162B "loc..seq,v116":"loc..seq,v116"
+12:40:34.622252 version@stat F·[2] S·4KiB[4KiB] Sc·[0.50]
+12:40:34.747143 db@janitor F·4 G·0
+12:40:34.747143 db@open done T·151.3887ms
+12:41:01.536195 db@close closing
+12:41:01.536749 db@close done T·553.9µs
+=============== Feb 18, 2022 (CET) ===============
+12:46:30.341811 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:46:30.342355 version@stat F·[2] S·4KiB[4KiB] Sc·[0.50]
+12:46:30.342355 db@open opening
+12:46:30.342355 journal@recovery F·1
+12:46:30.343960 journal@recovery recovering @6
+12:46:30.376516 memdb@flush created L0@8 N·245 S·8KiB "loc..seq,v146":"n:\xe3..ong,v325"
+12:46:30.378237 version@stat F·[3] S·12KiB[12KiB] Sc·[0.75]
+12:46:30.506109 db@janitor F·5 G·0
+12:46:30.506109 db@open done T·163.7538ms
+12:47:38.901080 db@close closing
+12:47:38.901111 db@close done T·31.5µs
+=============== Feb 18, 2022 (CET) ===============
+12:52:33.020516 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:52:33.021045 version@stat F·[3] S·12KiB[12KiB] Sc·[0.75]
+12:52:33.021045 db@open opening
+12:52:33.021045 journal@recovery F·1
+12:52:33.022663 journal@recovery recovering @9
+12:52:33.033503 memdb@flush created L0@11 N·5 S·260B "loc..seq,v364":"n:\xf3..ail,v365"
+12:52:33.035111 version@stat F·[4] S·12KiB[12KiB] Sc·[1.00]
+12:52:33.145135 db@janitor F·6 G·0
+12:52:33.145135 db@open done T·124.0898ms
+12:52:33.145683 table@compaction L0·4 -> L1·0 S·12KiB Q·369
+12:52:33.177583 table@build created L1@14 N·323 S·11KiB "loc..seq,v364":"version,v1"
+12:52:33.177583 version@stat F·[0 1] S·11KiB[0B 11KiB] Sc·[0.00 0.00]
+12:52:33.210521 table@compaction committed F-3 S-1KiB Ke·0 D·42 T·64.8385ms
+12:52:33.210521 table@remove removed @8
+12:52:33.210521 table@remove removed @5
+12:52:33.210521 table@remove removed @2
+14:13:13.196639 db@close closing
+14:13:13.252939 db@close done T·56.3007ms
+=============== Feb 18, 2022 (CET) ===============
+14:13:24.773803 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:13:24.773803 version@stat F·[0 1] S·11KiB[0B 11KiB] Sc·[0.00 0.00]
+14:13:24.773803 db@open opening
+14:13:24.773803 journal@recovery F·1
+14:13:24.783841 journal@recovery recovering @12
+14:13:24.837030 memdb@flush created L0@15 N·2114 S·20KiB "loc..seq,v370":"n:\xf3..ong,v371"
+14:13:24.838678 version@stat F·[1 1] S·31KiB[20KiB 11KiB] Sc·[0.25 0.00]
+14:13:24.942425 db@janitor F·5 G·1
+14:13:24.942425 db@janitor removing table-11
+14:13:24.942974 db@open done T·169.171ms
+15:38:23.482658 db@close closing
+15:38:23.482772 db@close done T·113.8µs
